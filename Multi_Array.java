@@ -24,6 +24,13 @@ public class Multi_Array {
             }
             System.out.println();
         }
+System.out.println("Using Enhanced for loop : ");
+        for (int x[] : num){
+            for (int y : x){
+                System.out.print(y + " ");
+            }
+            System.out.println();
+        }
 
     }
 }
