@@ -1,4 +1,5 @@
 package OOPs;
+
 class Dog{
     private String name;
     private String breed;
@@ -24,7 +25,8 @@ class Dog{
         this.breed = breed;
     }
 }
-public class DogBreed {
+
+public class BreedDog{
     public static void main(String args[]){
         
         Dog d1 = new Dog("jim" , "Bulldog");
@@ -40,5 +42,5 @@ public class DogBreed {
 
         System.out.println(d1.getName() + " : " + d1.getBreed());
         System.out.println(d2.getName() + " : " + d2.getBreed());
-    }
+}
 }
